@@ -46,7 +46,7 @@ db.PendingTask.find(options).then((pendingTask) => {
   // Do something with pending task
   pendingTask.name = 'new name';
   pendingTask.save().then(...);
-});
+}); 
 ```
 
 ## Other Extensions
